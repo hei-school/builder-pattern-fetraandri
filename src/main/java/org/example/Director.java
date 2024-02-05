@@ -1,3 +1,5 @@
+package org.example;
+
 public class Director {
     void constructSportsCar(Builder builder) {
         builder.reset();

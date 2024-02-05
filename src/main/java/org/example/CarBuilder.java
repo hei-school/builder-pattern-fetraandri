@@ -1,3 +1,5 @@
+package org.example;
+
 public class CarBuilder implements Builder {
     private Car car;
 
@@ -30,7 +32,7 @@ public class CarBuilder implements Builder {
     }
 
     public void setModel(String model) {
-        this.car.setModel(model);
+        this.car.setModel(model); // Assurez-vous que le modèle est correctement attribué
     }
 
     public Car getProduct() {
